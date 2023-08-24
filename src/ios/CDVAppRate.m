@@ -88,7 +88,7 @@
 
 - (void)launchInAppReview {
     [self.commandDelegate runInBackground:^{
-        [SKStoreReviewController requestReview];
+        [SKStoreReviewController requestReviewInScene];
     }];
 }
 
